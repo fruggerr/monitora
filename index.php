@@ -5,13 +5,17 @@
  	<meta charset="utf-8">
  </head>
  <body>
+  
+  <img src="img/banrisul_logo.png">
+  <h1>Monitoração</h1>
+  
  	<form method="post" action="valida.php">
- 		<label>Matrícula</label>
+ 		Matrícula:<br>
  		<input type="text" name="matricula" maxlength="50" />
-
- 		<label>Senha</label>
- 		<input type="password" name="Senha" maxlength="50" />
-
+   <br>
+ 		Senha:<br>
+ 		<input type="password" name="senha" maxlength="50" />
+   <br><br>
  		<div class="dropdown">
  			<a class="setor">Meu setor</a>
 
